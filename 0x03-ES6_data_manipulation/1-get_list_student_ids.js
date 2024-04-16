@@ -1,3 +1,3 @@
 export default function getListStudentIds(students) {
-  return typeof (students) === 'object' ? students.map(({ id }) => id) : [];
+  return Array.isArray(students) ? students.map(({ id }) => id) : [];
 }
