@@ -1,1 +1,1 @@
-0x01-ES6_promise
+about ES6 promise
